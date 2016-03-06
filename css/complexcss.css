@@ -1,0 +1,27 @@
+
+/*复合选择器*/
+
+h1{
+    color:red;    
+}
+.gray{
+    color:gray;
+}
+#green{
+    color: green;
+}
+/*交集选择器*/
+h1.gray{
+    color:yellow;
+}
+h1#green{
+    color:goldenrod;
+}
+.gray#green{
+    color:dodgerblue;
+}
+
+/*并集选择器*/
+b,em,i,ins{
+    color:cornflowerblue;
+}

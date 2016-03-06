@@ -1,33 +1,70 @@
 h1{
-    color: #f00;
+    color:chocolate;
+    text-decoration:underline ;
+}
+/*h1:hover{*/
+    /*font-size: 25px;*/
+/*}*/
 
-    text-decoration:none ;
+pre{
+    text-indent: 6em;
+
 }
 
-
+/*a element css customization*/
 a{
     font-family: Arial;
     font-size: 20px;
 }
 
 /*LoVe-HeAt*/
-a:link{
+a:link{ /*伪类*/
     color:chocolate;
-
 }
 
 a:visited{
     color:deeppink;
-
 }
 
 a:hover{
     color:red;
     font-size: 50px;
-
 }
 
 a:active{
     color: green;
-
 }
+
+/*class selector*/
+.red{
+    color:red;
+}
+.bg-purple{
+    background: purple;
+}
+
+/*id selector*/
+#yellow{
+    color:yellow;
+}
+
+/*note: priority: elemnt selector < class selector < id selector < inline style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
