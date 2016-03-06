@@ -1,4 +1,33 @@
 h1{
     color: #f00;
 
+    text-decoration:none ;
+}
+
+
+a{
+    font-family: Arial;
+    font-size: 20px;
+}
+
+/*LoVe-HeAt*/
+a:link{
+    color:chocolate;
+
+}
+
+a:visited{
+    color:deeppink;
+
+}
+
+a:hover{
+    color:red;
+    font-size: 50px;
+
+}
+
+a:active{
+    color: green;
+
 }
