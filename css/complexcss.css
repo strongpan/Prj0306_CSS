@@ -1,15 +1,18 @@
 
-/*复合选择器*/
 
-h1{
+/*-----------基本选择器------------*/
+h1{/*标记*/
     color:red;    
 }
-.gray{
+.gray{/*class 选择器*/
     color:gray;
 }
-#green{
+#green{/* id 选择器*/
     color: green;
 }
+
+/* ------------复合选择器---------------*/
+
 /*交集选择器*/
 h1.gray{
     color:yellow;
